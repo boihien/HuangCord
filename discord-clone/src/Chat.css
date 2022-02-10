@@ -1,14 +1,16 @@
 .chat {
     display: flex;
     flex-direction: column;
-    flex: 0.75;
+    flex: 0.85;
     background-color: #363a3f;
     height: 100vh;
+    align-items: stretch;
 }
 
 .chat_messages {
     flex: 1;
-    overflow: scroll;
+    overflow-y: scroll;
+    /*overflow: scroll;*/
 }
 .chat_messages::-webkit-scrollbar {
     display: none;
@@ -52,5 +54,4 @@
 
 .chat_inputIcons > .MuiSvgIcon-root{
     padding: 5px;
-    cursor: pointer;
 }
