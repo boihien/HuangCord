@@ -4,3 +4,7 @@ Discord Clone Web App
 
 ##Build Command
 `npm run build && deploy`
+
+##Backend
+`Firebase 10.1.4`
+
