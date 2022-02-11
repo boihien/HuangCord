@@ -38,26 +38,11 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar_top">
-                <h3>Clever Programmer</h3>
+                <h3>HuangCord</h3>
                 <ExpandMoreIcon />
             </div>
             <div className="sidebar_channels">
-                <div className="sidebar_channelsHeader">
-                    <div className="sidebar_header">
-                        <ExpandMoreIcon />
-                        <h4>Text Channels</h4>
-                    </div>
-                    <AddIcon onClick={ handleAddChannel } className="sidebar_addChannel" />
-                </div>
-                <div className="sidebar_channelsList">
-                    {channels.map(({id, channel}) => (
-                        <SidebarChannel 
-                            key={id} 
-                            id={id} 
-                            channelName={channel.channelName}
-                        />
-                    ))}
-                </div>
+    
             </div>
             <div className="sidebar_profile">
                 <Avatar onClick={() => auth.signOut()} src={user.photo}/>
