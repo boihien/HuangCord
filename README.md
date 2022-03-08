@@ -2,9 +2,9 @@
 Discord Clone Web App
 `https://discord-clone-69347.web.app`
 
-##Build Command
+## Build Command
 `npm run build && firebase deploy`
 
-##Backend
+## Backend
 `Firebase 10.1.4`
 
